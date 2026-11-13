@@ -1,0 +1,39 @@
+{
+    "report_name": "Nmap Service Assessment",
+    "generated_at": "2026-11-13T12:04:17.802301+00:00",
+    "host_count": 1,
+    "open_port_count": 2,
+    "hosts": [
+        {
+            "status": "up",
+            "addresses": [
+                {
+                    "ip": "192.168.1.10",
+                    "type": "ipv4"
+                }
+            ],
+            "ports": [
+                {
+                    "protocol": "tcp",
+                    "port": 80,
+                    "state": "open",
+                    "service": {
+                        "name": "http",
+                        "product": "Apache httpd",
+                        "version": "2.4.58"
+                    }
+                },
+                {
+                    "protocol": "tcp",
+                    "port": 443,
+                    "state": "open",
+                    "service": {
+                        "name": "https",
+                        "product": null,
+                        "version": null
+                    }
+                }
+            ]
+        }
+    ]
+}

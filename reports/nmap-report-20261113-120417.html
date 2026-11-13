@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nmap VAPT Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: #f4f4f4;
+        }
+        h1 {
+            color: #183153;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background: #183153;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nmap Service Assessment Report</h1>
+    <p>Generated: 2026-11-13T12:04:17.802301+00:00</p>
+    <p>Hosts discovered: 1</p>
+    <p>Open ports: 2</p>
+
+    <table>
+        <tr>
+            <th>IP Address</th>
+            <th>Port</th>
+            <th>Service</th>
+            <th>Product</th>
+            <th>Version</th>
+        </tr>
+        <tr><td>192.168.1.10</td><td>80/tcp</td><td>http</td><td>Apache httpd</td><td>2.4.58</td></tr>
+<tr><td>192.168.1.10</td><td>443/tcp</td><td>https</td><td></td><td></td></tr>
+    </table>
+
+    <p>JSON evidence: nmap-report-20261113-120417.json</p>
+</body>
+</html>
